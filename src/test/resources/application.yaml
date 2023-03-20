@@ -1,0 +1,6 @@
+javafx:
+  title: APP V1.0.0
+
+spring:
+  main:
+    lazy-initialization: true
