@@ -1,4 +1,4 @@
-module com.github.wanghongzhou.javafx {
+module io.github.wanghongzhou.javafx {
 
     requires transitive javafx.base;
     requires transitive javafx.fxml;
@@ -20,25 +20,25 @@ module com.github.wanghongzhou.javafx {
 
     opens icons;
     opens theme;
-    opens com.github.wanghongzhou.javafx.view;
-    opens com.github.wanghongzhou.javafx.view.fxml;
-    opens com.github.wanghongzhou.javafx.stage;
-    opens com.github.wanghongzhou.javafx.splash;
-    opens com.github.wanghongzhou.javafx.config;
-    opens com.github.wanghongzhou.javafx.application;
-    opens com.github.wanghongzhou.javafx.stage.style;
-    opens com.github.wanghongzhou.javafx.stage.manager;
-    opens com.github.wanghongzhou.javafx.stage.factory;
-    opens com.github.wanghongzhou.javafx.stage.decorated;
+    opens io.github.wanghongzhou.javafx.view;
+    opens io.github.wanghongzhou.javafx.view.fxml;
+    opens io.github.wanghongzhou.javafx.stage;
+    opens io.github.wanghongzhou.javafx.splash;
+    opens io.github.wanghongzhou.javafx.config;
+    opens io.github.wanghongzhou.javafx.application;
+    opens io.github.wanghongzhou.javafx.stage.style;
+    opens io.github.wanghongzhou.javafx.stage.manager;
+    opens io.github.wanghongzhou.javafx.stage.factory;
+    opens io.github.wanghongzhou.javafx.stage.decorated;
 
-    exports com.github.wanghongzhou.javafx.view;
-    exports com.github.wanghongzhou.javafx.view.fxml;
-    exports com.github.wanghongzhou.javafx.stage;
-    exports com.github.wanghongzhou.javafx.splash;
-    exports com.github.wanghongzhou.javafx.config;
-    exports com.github.wanghongzhou.javafx.application;
-    exports com.github.wanghongzhou.javafx.stage.style;
-    exports com.github.wanghongzhou.javafx.stage.manager;
-    exports com.github.wanghongzhou.javafx.stage.factory;
-    exports com.github.wanghongzhou.javafx.stage.decorated;
+    exports io.github.wanghongzhou.javafx.view;
+    exports io.github.wanghongzhou.javafx.view.fxml;
+    exports io.github.wanghongzhou.javafx.stage;
+    exports io.github.wanghongzhou.javafx.splash;
+    exports io.github.wanghongzhou.javafx.config;
+    exports io.github.wanghongzhou.javafx.application;
+    exports io.github.wanghongzhou.javafx.stage.style;
+    exports io.github.wanghongzhou.javafx.stage.manager;
+    exports io.github.wanghongzhou.javafx.stage.factory;
+    exports io.github.wanghongzhou.javafx.stage.decorated;
 }
